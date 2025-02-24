@@ -34,27 +34,21 @@ cd next-email-sender
 npm install
 ```
 
-3. Configura las variables de entorno:
+##3. Configura las variables de entorno:
 
 1. Crea un archivo `.env.local`
-##
+
 2. Añade tu API key de Brevo:
-
-
-
-
 
 ```plaintext
 BREVO_API_KEY=tu-api-key-aquí
 ```
-
+##
 4. Inicia el servidor de desarrollo:
-
-
+##
 ```shellscript
 npm run dev
 ```
-
 ## ⚙️ Configuración
 
 1. Crea una cuenta en [Brevo](https://www.brevo.com/)
@@ -72,4 +66,4 @@ Las contribuciones son bienvenidas. Por favor, abre un issue primero para discut
 
 ## 👨‍💻 Autor
 
-Dev Jefferson
+Dev Jxfferson
