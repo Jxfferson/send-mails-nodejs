@@ -1,36 +1,74 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 📧 Next.js Email Sender
 
-## Getting Started
+Una moderna aplicación de envío de correos electrónicos construida con Next.js 14 y Brevo (anteriormente Sendinblue). Interfaz elegante y minimalista con tema oscuro.
 
-First, run the development server:
+## ✨ Características
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- 🎯 Envío de correos electrónicos en tiempo real
+- 🌙 Diseño moderno con tema oscuro
+- 📱 Interfaz responsive
+- ⚡ Server Actions para mejor rendimiento
+- 🔔 Notificaciones toast para feedback
+- ✅ Validación de formularios
+
+## 🚀 Tecnologías
+
+- [Next.js 14](https://nextjs.org/)
+- [Brevo API](https://www.brevo.com/)
+- [TailwindCSS](https://tailwindcss.com/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Sonner](https://sonner.emilkowal.ski/)
+
+## 📦 Instalación
+
+1. Clona el repositorio:
+
+git clone  https://github.com/Jxfferson/send-mails-nodejs.git 
+cd next-email-sender
+
+
+2. Instala las dependencias:
+
+
+```shellscript
+npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+3. Configura las variables de entorno:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. Crea un archivo `.env.local`
+2. Añade tu API key de Brevo:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```plaintext
+BREVO_API_KEY=tu-api-key-aquí
+```
 
-## Deploy on Vercel
+4. Inicia el servidor de desarrollo:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```shellscript
+npm run dev
+```
+
+## ⚙️ Configuración
+
+1. Crea una cuenta en [Brevo](https://www.brevo.com/)
+2. Obtén tu API key desde el dashboard de Brevo
+3. Configura el remitente por defecto en `app/lib/brevo.ts`
+
+
+## 🤝 Contribuir
+
+Las contribuciones son bienvenidas. Por favor, abre un issue primero para discutir los cambios que te gustaría hacer.
+
+## 📝 Licencia
+
+[MIT](LICENSE)
+
+## 👨‍💻 Autor
+
+Dev Jefferson
