@@ -34,7 +34,7 @@ cd next-email-sender
 npm install
 ```
 
-##3. Configura las variables de entorno:
+## 3. Configura las variables de entorno:
 
 1. Crea un archivo `.env.local`
 
