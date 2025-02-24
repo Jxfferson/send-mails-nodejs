@@ -1,6 +1,6 @@
 # 📧 Next.js Email Sender
 
-Una moderna aplicación de envío de correos electrónicos construida con Next.js 14 y Brevo (anteriormente Sendinblue). Interfaz elegante y minimalista con tema oscuro.
+Una moderna aplicación de envío de correos electrónicos construida con Next.js 14 y Brevo, en todo el codigo está la explicación del porque y para que cada cosa, cualquier cambio o sugerencia es recibida.
 
 ## ✨ Características
 
