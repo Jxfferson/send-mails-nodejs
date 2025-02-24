@@ -67,3 +67,7 @@ Las contribuciones son bienvenidas. Por favor, abre un issue primero para discut
 ## 👨‍💻 Autor
 
 Dev Jxfferson
+
+## 
+
+Pronto editare el archivo agregandole explicaciones mas detalladas sobre cada pasa para que sea muy entendible, gracias por revisar este archivo.
