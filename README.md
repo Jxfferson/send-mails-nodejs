@@ -25,7 +25,7 @@ Una moderna aplicación de envío de correos electrónicos construida con Next.j
 
 git clone  https://github.com/Jxfferson/send-mails-nodejs.git 
 cd next-email-sender
-
+##
 
 2. Instala las dependencias:
 
