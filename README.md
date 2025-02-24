@@ -37,6 +37,7 @@ npm install
 3. Configura las variables de entorno:
 
 1. Crea un archivo `.env.local`
+##
 2. Añade tu API key de Brevo:
 
 
